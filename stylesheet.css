@@ -68,7 +68,7 @@
 
   body {
     background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-    background-position: right 45vw bottom 45vh, left 40vw top 44vh;
+    background-position: right 45vw bottom 45vh, left 30vw top 45vh;
     background-repeat: no-repeat, no-repeat;
     background-color: var(--clr-primary-dark-cyan);
 
@@ -173,4 +173,19 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:is(:hover, :active) { 
+  color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 600px) {
+  body {
+    background-position: right 40vw bottom 43vh, left 37vw top 47vh;
+    background-size: 80%;
+  }
+
+  .attribution {
+    font-size: 0.9rem;
+  }
 }
