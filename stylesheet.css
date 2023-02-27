@@ -66,6 +66,8 @@
     isolation: isolate;
   }
 
+  /* General Styling */
+
   body {
     background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-position: right 45vw bottom 45vh, left 30vw top 45vh;
@@ -90,6 +92,8 @@
     border-radius: 0.9rem;
     overflow: hidden;
   }
+
+  /* Card Styling */
 
   .card__avatar {
     display: grid;
@@ -133,6 +137,7 @@
     font-size: 0.9rem;
   }
 
+  /* Horizontal Line Styling */
   hr {
     border: 0;
     height: 0;
@@ -142,6 +147,8 @@
 
     margin-top: 1.4rem;
   }
+
+  /* Bottom Card Styling */
 
   .flex__group {
     display: flex;
@@ -165,6 +172,8 @@
     letter-spacing: 2px;
   }
 
+  /* Footer Styling */
+
 .attribution { 
     font-weight: var(--fw-bold-700);
     font-size: 0.8rem; 
@@ -178,6 +187,8 @@
 .attribution a:is(:hover, :active) { 
   color: hsl(0, 0%, 100%);
 }
+
+/* Desktop Responsiveness */
 
 @media (min-width: 600px) {
   body {
